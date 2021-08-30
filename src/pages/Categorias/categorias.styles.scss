@@ -1,0 +1,39 @@
+@import '../../styles/colors';
+.container{
+   @debug "divider offset:#{holaaascc}";
+    width:100%;
+    padding: 150px 0 100px 0;
+   .panel-body {
+      margin-top:30px;   
+   }
+   .spacebetween{
+      margin: 30px 0 0 0;
+   }
+   .spacebutton{
+      margin-left: 20px;
+   }
+   th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: var(--color-10);
+     color: white;
+   }
+   tr{
+      &:hover {background-color: #ddd;}
+      &:nth-child(even){background-color: #f2f2f2;}
+   }
+   td,th{
+     border: 1px solid #ddd;
+     padding: 8px;
+   }
+   .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+    
+}  
+.pushsignin{
+   margin-top:80px
+}
